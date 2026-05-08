@@ -27,9 +27,7 @@ export async function onRequest(context) {
       return new Response(null, {
         status: 302,
         headers: {
-          "Location": "/",
-          "Set-Cookie":
-            "auth=true; Path=/; HttpOnly; Max-Age=86400"
+          "Location": "/"
         }
       });
 
