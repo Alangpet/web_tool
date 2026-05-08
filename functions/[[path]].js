@@ -1,4 +1,4 @@
-const PASSWORD = "123456";
+const PASSWORD = "admin";
 
 export async function onRequest(context) {
 
